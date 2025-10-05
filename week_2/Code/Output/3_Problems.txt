@@ -1,0 +1,61 @@
+Fibonacci series (10 terms): [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+radar is a palindrome
+hello is not a palindrome
+Right Triangle:
+*
+* *
+* * *
+* * * *
+* * * * *
+
+
+Inverted Right Triangle:
+* * * * *
+* * * *
+* * *
+* *
+*
+
+
+Pyramid Pattern:
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+
+Inverted Pyramid Pattern:
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+
+
+Diamond Pattern:
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+
+
+Number Triangle:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+
+Inverted Number Triangle:
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1

@@ -1,0 +1,5 @@
+Available books: ['Python Programming', 'Data Structures']
+Vikas borrowed Python Programming
+Available books: ['Data Structures']
+Vikas returned Python Programming
+Available books: ['Python Programming', 'Data Structures']

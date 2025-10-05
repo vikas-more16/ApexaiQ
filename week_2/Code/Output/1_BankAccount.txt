@@ -1,0 +1,3 @@
+Deposited 200. New balance: 700
+Withdrawn 100. Remaining balance: 600
+Cannot withdraw 700. Insufficient balance: 600
