@@ -382,7 +382,7 @@ amount_paise = int(amount_rupees * 100)
 - **User Acceptance (UAT)** – validates with users
 - **Test Pyramid** – more unit tests, fewer E2E
 
-### 5) PEP 8 (style guide highlights)
+### 5) PEP 8
 
 - 4 spaces indentation (no tabs)
 - Max line length: 79/88 (depending on tool)
@@ -428,7 +428,7 @@ An **API** (Application Programming Interface) lets one program talk to another 
 - **Partner** – shared with specific partners under agreements
 - **Composite** – bundles multiple API calls into one
 
-### 3) HTTP Status Codes (most used)
+### 3) HTTP Status Codes
 
 - **2xx Success** – request worked (200 OK, 201 Created, 204 No Content)
 - **3xx Redirect** – resource moved
@@ -515,7 +515,7 @@ token = jwt.encode(payload, "secret_key", algorithm="HS256")
 | Patch     | PATCH  | `/api/users/{id}`     | Partial update         |
 | Delete    | DELETE | `/api/users/{id}`     | Remove resource        |
 
-### 8) Explore Postman (optional)
+### 8) Explore Postman
 
 - Create a **Collection** and **Environment** (base URL, tokens)
 - Add **Examples** to auto‑document responses
@@ -531,7 +531,7 @@ token = jwt.encode(payload, "secret_key", algorithm="HS256")
 - Timeouts, retries with **exponential backoff**
 - Use **asynchronous** workers for heavy tasks
 
-### 10) Python `requests` Library (practical patterns)
+### 10) Python `requests` Library
 
 ```python
 import requests
@@ -555,7 +555,7 @@ resp = s.get(f"{BASE}/todos/1", timeout=5)
 print(resp.json())
 ```
 
-### 11) RBAC (Role‑Based Access Control) (optional but useful)
+### 11) RBAC (Role‑Based Access Control)
 
 - **Role**: a named group of permissions (e.g., `admin`, `teacher`, `student`)
 - **Permission**: an action allowed on a resource (e.g., `attendance:read`)
@@ -592,7 +592,7 @@ Phases:
 
 **Tip:** Keep documentation updated in every phase.
 
-### 2) Agile Basics (Scrum in short)
+### 2) Agile Basics (Scrum)
 
 - Timeboxed **Sprints** (1–4 weeks)
 - Roles: **Product Owner**, **Scrum Master**, **Developers**
@@ -617,7 +617,7 @@ git push -u origin main
 - Pull Requests + code reviews
 - Protect `main` with CI checks
 
-### 4) Software Architecture (clear mental models)
+### 4) Software Architecture
 
 - **Monolith** – one deployable unit; simple to start, harder to scale teams
 - **Microservices** – many small services; independent deploys; more ops complexity
