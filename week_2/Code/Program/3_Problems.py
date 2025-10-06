@@ -1,4 +1,22 @@
+""" Python Practice Program
 
+This program demonstrates multiple basic programming concepts:
+
+1. Fibonacci Series:
+   - Generates and prints the first n terms of the Fibonacci series.
+
+2. Palindrome Check:
+   - Checks whether a given string is a palindrome and prints the result.
+
+3. Patterns:
+   - Prints various patterns using stars (*) and numbers:
+     1) Right Triangle
+     2) Inverted Right Triangle
+     3) Pyramid
+     4) Inverted Pyramid
+     5) Diamond
+     6) Number Triangle
+     7) Inverted Number Triangle """
 
 # Fibonacci series
 def fibonacci(n):

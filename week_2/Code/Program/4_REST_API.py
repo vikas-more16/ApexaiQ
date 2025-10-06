@@ -1,3 +1,18 @@
+"""
+Random Joke Fetcher
+
+This program fetches and prints a random joke from the
+Official Joke API (https://official-joke-api.appspot.com).
+
+Function:
+---------
+- fetch_random_joke():
+    Sends a GET request to the API, retrieves a joke in JSON format,
+    and prints the setup and punchline. Handles HTTP, connection,
+    timeout, and general request exceptions.
+"""
+
+
 # Fetches a random joke from the Official Joke API.
 # API URL: https://official-joke-api.appspot.com/random_joke
 

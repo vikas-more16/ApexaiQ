@@ -1,9 +1,14 @@
-"""  Library System with Classes: Book, Member, Library
+"""
+Library Management System
 
-library system :
--- Book class: Stores title and availability.
--- Member class: Can borrow or return books. Keeps track of borrowed books.
--- Library class: Stores books, tracks which are available and borrowed."""
+This program defines a simple library system with classes for Book, Member, and Library.
+Members can borrow and return books, and the library keeps track of available and borrowed books.
+
+Classes:
+- Book: Represents a book with a title and borrowed status.
+- Member: Represents a library member who can borrow and return books.
+- Library: Manages a collection of books and tracks availability.
+"""
 
 class Book:
     def __init__(self, title):

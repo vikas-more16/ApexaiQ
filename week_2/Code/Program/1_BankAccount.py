@@ -1,9 +1,14 @@
-""" BankAccount class with deposit, withdraw, and check_balance. Handle insufficient balance with exceptions.
+"""
+Simple BankAccount system with deposit, withdraw, and balance check.
 
-BankAccount class with the following functionality:
--- deposit(amount): Add money to the account.
--- withdraw(amount): Remove money from the account. Raise an exception if balance is insufficient.
--- check_balance(): Display the current balance."""
+Includes a custom exception InsufficientBalanceError for handling
+withdrawals that exceed the account balance.
+
+Classes:
+- InsufficientBalanceError: Raised when balance is insufficient.
+- BankAccount: Handles deposits, withdrawals, and balance checking.
+"""
+
 
 #  Custom exception for insufficient balance
 class InsufficientBalanceError(Exception):
