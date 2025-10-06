@@ -92,13 +92,14 @@ while True:
 ### 4) Functions (parameters, return, default args, \*args, \*\*kwargs)
 
 **Function** - A function is a block of code that performs a specific task and can be reused.
--- Parameters are inputs that you pass to a function.
--- A function can return a value using the return keyword.
--- We can provide default values for parameters. If the argument is not passed, the default is used.
--- If we want to pass multiple values without knowing how many, use *args.
-*args collects arguments as a tuple.
--- If we want to pass named arguments dynamically, use **kwargs.
-**kwargs collects arguments as a dictionary.
+
+- Parameters are inputs that you pass to a function.
+- A function can return a value using the return keyword.
+- We can provide default values for parameters. If the argument is not passed, the default is used.
+- If we want to pass multiple values without knowing how many, use *args.
+  *args collects arguments as a tuple.
+- If we want to pass named arguments dynamically, use **kwargs.
+  **kwargs collects arguments as a dictionary.
 
 ```python
 def greet(name="World"):                 # default argument
@@ -127,10 +128,10 @@ print(profile(name="Vikas", city="Shegaon"))
 - Python provides `try`, `except`, `else`, and `finally` to handle exceptions.
 
 - try block → Code that might cause an error goes here.
-  except block → Executes if an error occurs.
-  The else block runs only if no exception occurs in the try block.
-  The finally block always runs, whether an exception occurs or not.
-  Specific exceptions like ZeroDivisionError or ValueError can be caught.
+- except block → Executes if an error occurs.
+- The else block runs only if no exception occurs in the try block.
+- The finally block always runs, whether an exception occurs or not.
+- Specific exceptions like ZeroDivisionError or ValueError can be caught.
 
 ```python
 try:
@@ -631,27 +632,5 @@ git push -u origin main
 - Keep boundaries explicit (don’t leak DB models everywhere)
 - Prefer **composition** over inheritance for flexibility
 - Add **observability** (metrics, logs, traces)
-
----
-
-## Final Checklist (Practical)
-
-- Use a **virtualenv** per project
-- Enforce style with **black** + **ruff**
-- Write **docstrings** & meaningful **tests**
-- Design APIs with **clear contracts** and **proper status codes**
-- Secure with **HTTPS, auth, validation, rate limits**
-- Monitor performance; cache; paginate
-
----
-
-### Useful Mini Cheat Sheet
-
-- List comprehension: `[f(x) for x in items if cond(x)]`
-- Dict comprehension: `{k: f(v) for k, v in d.items()}`
-- Generator: `def gen(): yield something`
-- Decorator: `@decorator` above a function
-- Requests: `requests.get(url, params=..., headers=...)`
-- Git: `clone → branch → add → commit → push → PR`
 
 ---
