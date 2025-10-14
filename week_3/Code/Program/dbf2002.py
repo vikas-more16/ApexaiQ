@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import re
-from dateutil import parser as dateparser  # pip install python-dateutil
+from dateutil import parser as dateparser 
 
 def parse_date(raw):
     """
