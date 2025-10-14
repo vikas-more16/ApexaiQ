@@ -6,13 +6,7 @@ withdrawals that exceed the account balance.
 """
 
 class InsufficientBalanceError(Exception):
-    """
-    Exception raised when an attempt is made to withdraw more money
-    than the available balance in a BankAccount.
-    """
     pass
-
-
 class BankAccount:
     """
     A simple bank account class that allows deposits, withdrawals,
