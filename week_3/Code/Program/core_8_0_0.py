@@ -16,7 +16,6 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 wait = WebDriverWait(driver, 10)
 
 all_data = []
-today = datetime.now().strftime("%d-%m-%Y")
 
 for url in urls:
     print(f"\nScraping: {url}")
@@ -46,7 +45,6 @@ for url in urls:
                         "Version Name": version_name,
                         "Version": v,
                         "URL": url,
-                        "Scraped Date": today
                     })
 
     except Exception as e:
