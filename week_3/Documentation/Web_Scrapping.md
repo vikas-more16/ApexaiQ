@@ -1,6 +1,6 @@
-# Web Scraping
+## **ApexaIQ – Week 3 Documentation**
 
----
+# Web Scraping Documentation
 
 ## What is Web Scraping?
 
